@@ -1,0 +1,30 @@
+header
+	background-color: $color-black
+	position: fixed
+	display: block
+	top: 0
+	width: 100%
+	height: auto
+	z-index: 9999999
+nav
+	ul
+		float: right
+		margin: 10px 0
+		li
+			display: table-cell
+			padding-left: 40px
+			font-family: 'Gotham-Light'
+			font-size: 14px
+			cursor: pointer
+i.phone
+	$image: "general/icons/phone.png"
+	+image-block($image)
+	display: inline-block
+i.email
+	$image: "general/icons/email.png"
+	+image-block($image)
+	display: inline-block
+i.address
+	$image: "general/icons/address.png"
+	+image-block($image)
+	display: inline-block	

@@ -1,0 +1,45 @@
+footer
+	padding-bottom: 30px
+	background: $color-dark
+	.txt p
+		font-family: "Gotham-Light"	
+		font-size: 11px
+		text-transform: uppercase
+		text-align: justify
+	hr
+		border-color: $color-blue
+		margin: 40px 0
+
+	.logos
+		margin: 0 auto
+		display: block
+		position: relative
+		width: 653px
+		>div
+			display: inline-block
+			margin: 0 34px 
+			height: 59px !important
+			background-position: center center !important
+		.logo-01 a
+			$image: "general/logos/1.png"
+			+image-block($image)
+			+ir
+			display: inline-block
+		.logo-02 a
+			$image: "general/logos/2.png"
+			+image-block($image)
+			+ir
+			display: inline-block
+		.logo-03 a
+			$image: "general/logos/3.png"
+			+image-block($image)
+			+ir
+			display: inline-block
+
+	form
+		margin-top: 90px
+		.box-01, .box-02
+			width: 470px
+			display: table-cell
+		.box-02
+			padding-left: 30px

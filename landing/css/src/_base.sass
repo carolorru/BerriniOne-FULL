@@ -1,0 +1,201 @@
+
+// VARIABLE COLORS
+$color-black: #171717
+$color-dark: #1c1c1c
+$color-blue-dark: #003748
+$color-blue: #00b9f1
+$color-blue-light: #b8e4f1
+$color-grey: #646464
+$color-grey-light: #d4d4d4
+$color-white: #FFFFFF
+
+
+// RESET SITE
+*
+	box-sizing: border-box
+*:before, *:after
+	border: none !important
+	box-sizing: border-box
+a:focus
+	outline: none !important
+img, a
+	border: none
+p
+	margin: 0
+	padding: 0
+.clear
+	clear: both
+.mac 
+	h2, h3, p
+		letter-spacing: -1.1px
+	#home .box .info-02
+		font-size: 13px
+		letter-spacing: 0px
+	form p
+		letter-spacing: 0px
+
+html, body
+	width: 100%
+	height: 100%
+	margin: 0 
+	padding: 0
+
+.animated
+	-webkit-animation-duration: 1.5s
+	animation-duration: 1.5s
+	-webkit-animation-fill-mode: both
+	animation-fill-mode: both
+.delay-1
+	animation-delay: 1s
+	-webkit-animation-delay: 1s
+.delay-2
+	animation-delay: 2s
+	-webkit-animation-delay: 2s
+
+// CUSTUM STYLE
+h1
+	$image: "general/logo.jpg"
+	+image-block($image)
+	+ir
+	margin: 0 
+	padding: 0
+
+h2
+	font-family: "Gotham-Light"	
+	font-size: 30px
+	text-transform: uppercase
+	color: $color-blue
+h3
+	font-family: "Gotham-Light"	
+	font-size: 16px
+	text-transform: uppercase
+	color: $color-blue
+.black-block p
+	font-family: "Gotham-Light"	
+	font-size: 22px
+	text-transform: uppercase
+	color: $color-blue
+	line-height: 29px
+
+body
+	font-family: "Gotham-Book"	
+	font-size: 16px
+	color: $color-white
+	background-color: $color-black
+
+	section
+		width: 100%
+		position: relative
+		display: block
+	.black-block
+		margin: 0 auto
+		display: block
+		position: relative
+		background: $color-black
+		padding: 50px 0
+		p				
+			text-align: center			
+
+	.container
+		width: 970px
+		position: relative
+		display: block
+		margin: 0 auto
+		padding: 0
+	.row
+		margin: 0
+
+form
+	p
+		font-family: "Gotham-LightIta"	
+		font-size: 11px
+		color: $color-white
+		text-transform: uppercase
+		margin-bottom: 15px
+	label
+		font-family: "Gotham-LightIta"	
+		font-size: 12px
+		color: $color-blue
+		text-transform: uppercase
+		margin-bottom: 3px
+		display: block
+	input, textarea		
+		display: block	
+		background-color: $color-white
+		-webkit-appearance: none
+		-moz-appearance: none			
+		appearance: none			
+		border: none
+		box-sizing: border-box
+		width: 470px
+		padding: 5px 7px
+		margin: 0 0 10px 0	
+		font-family: "Gotham-Book"	
+		font-size: 12px
+		text-transform: none
+		color: $color-dark
+	.ddd
+		width: 45px
+		margin-right: 5px
+		display: inline
+	.phone
+		width: 415px
+		display: inline
+	textarea
+		height: 132px
+	
+	button
+		font-family: 'Gotham-Bold'
+		font-size: 12px
+		color: #fff
+		border: none
+		background: $color-blue
+		padding: 0 10px 0 10px
+		height: 30px
+		width: auto
+		cursor: pointer
+		float: right
+.form-02
+	position: absolute
+	bottom: 20px
+	right: 5%
+	width: 349px
+	clear: both
+	input
+		width: 280px
+		float: left
+		height: 29px
+	button
+		float: right
+		text-transform: uppercase
+
+#modal
+	display: none
+	$image: "general/bg-label-slide.jpg"
+	+image-block($image)	
+	background-position: center left
+	background-color: #1c1c1c
+	padding: 15px 20px 15px 40px
+	position: fixed
+	top: 50%
+	left: 50%
+	margin-top: -100px
+	margin-left: -175px
+	height: auto
+	width: 350px
+	z-index: 99999999999999
+	p
+		font-family: "Gotham-Light"
+		font-size: 22px
+		text-transform: uppercase
+		line-height: 29px
+.shadown
+	height: 100%
+	width: 100%
+	background: $color-dark
+	opacity: 0.8
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 999999999
+	display: none

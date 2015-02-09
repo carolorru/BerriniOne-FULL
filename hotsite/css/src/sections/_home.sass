@@ -1,0 +1,59 @@
+#home
+	.tower
+		$image: "header/tower.png"
+		+image-block($image)
+		position: absolute
+		bottom: 0
+		left: 50%
+		margin-left: -246px
+	.logo
+		height: 600px
+	.box
+		background: $color-black				
+		margin-top: 0px
+		text-align: right
+		display: block
+		float: left
+		@media (min-width: $grid-float-breakpoint)				
+			margin-top: 30px
+
+		h2
+			border-right: 20px solid $color-blue
+			margin-top: 25px
+			margin-bottom: 35px		
+			padding-right: 20px
+			line-height: 130%
+		h3
+			border-right: 20px solid $color-blue
+			margin-top: 20px		
+			padding-right: 20px
+			margin-bottom: 0
+			padding-bottom: 0
+			
+		hr
+			border: 1px solid $color-blue
+			background: transparent
+			width: 95%
+			margin: 0 auto 35px
+		p
+			color: $color-white
+			text-transform: uppercase
+			padding-right: 40px
+			margin-bottom: 20px			
+		span
+			font-family: "Gotham-LightIta"	
+			font-size: 95%
+			text-transform: uppercase
+			color: $color-white
+			padding-right: 40px
+			padding-bottom: 25px
+			display: block
+		.info-02
+			font-family: "Gotham-Light"	
+			font-size: 80%			
+			color: $color-white
+			border-right: 20px solid $color-blue
+			padding-right: 20px
+			margin: 0 0 20px 0
+			text-transform: none
+

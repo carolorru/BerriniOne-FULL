@@ -1,0 +1,116 @@
+//background animeted elements
+#home
+	$image: "general/bg-home.jpg"
+	+image-block($image)
+	background-repeat: repeat-x
+	background-color: $color-black
+	display: block
+	position: relative
+	width: 100%
+	margin-top: 60px
+	height: auto
+	.city-back
+		$image: "header/city-back.png"
+		+image-block($image)
+		background-repeat: repeat-x		
+		position: absolute
+		width: 100%
+	.city-front
+		$image: "header/city-front.png"
+		+image-block($image)
+		background-repeat: repeat-x
+		position: absolute
+		width: 100%
+	.stars-back
+		$image: "header/stars-back.png"
+		+image-block($image)
+		background-repeat: repeat-x
+		position: absolute
+		width: 100%
+	.stars-front
+		$image: "header/stars-front.png"
+		+image-block($image)
+		background-repeat: repeat-x
+		position: absolute
+		width: 100%
+
+#home
+	width: 100%
+	margin-top: 35px
+	.container
+		height: 601px
+	.stars
+		$image: "general/bg-stars.png"
+		+image-block($image)
+		background-repeat: repeat-x
+		position: absolute
+		top: 0
+		width: 100%
+	.tower
+		$image: "general/tower.png"
+		+image-block($image)
+		position: absolute
+		bottom: 0
+		left: -10px	
+
+	.logo
+		width: 400px
+		height: 130px
+		float: left	
+	.box
+		background: $color-black				
+		margin-top: 30px
+		float: right
+		text-align: right
+		width: 570px
+		display: block
+		float: left
+		h2
+			border-right: 20px solid $color-blue
+			margin-top: 25px
+			margin-bottom: 35px		
+			padding-right: 20px
+			line-height: 40px
+		h3
+			border-right: 20px solid $color-blue
+			margin-top: 20px		
+			padding-right: 20px
+			margin-bottom: 0
+			padding-bottom: 0
+			line-height: 29px
+		hr
+			border: 1px solid $color-blue
+			background: transparent
+			width: 490px
+			margin: 0 auto 35px
+		p
+			color: $color-white
+			line-height: 24px
+			text-transform: uppercase
+			padding-right: 40px
+			margin-bottom: 20px			
+		span
+			font-family: "Gotham-LightIta"	
+			font-size: 15px
+			text-transform: uppercase
+			color: $color-white
+			padding-right: 40px
+			padding-bottom: 25px
+			display: block
+		.info-02
+			font-family: "Gotham-Light"	
+			font-size: 12px			
+			color: $color-white
+			line-height: 19px
+			border-right: 20px solid $color-blue
+			padding-right: 20px
+			margin: 0 0 20px 0
+			text-transform: none
+	.box-02
+		width: 365px
+		cursor: pointer
+	.space
+		width: 605px
+		height: 1px
+		float: left
+			

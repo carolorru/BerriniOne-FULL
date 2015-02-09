@@ -1,0 +1,44 @@
+footer
+	padding-bottom: 30px
+	background: $color-dark
+	.container-fluid
+		background: $color-black
+	.txt p
+		font-family: "Gotham-Light"	
+		font-size: 11px
+		text-transform: uppercase
+		text-align: justify
+	hr
+		border-color: $color-blue
+		margin: 40px 0
+
+	.logos
+		margin: 0 auto
+		display: block
+		position: relative
+		>div
+			height: 59px !important
+		.logo-01 a
+			$image: "general/logos/1.png"
+			+image-block($image)
+			+ir
+			background-position: center center
+			width: 100%
+			min-width: image-width($image)
+		.logo-02 a
+			$image: "general/logos/2.png"
+			+image-block($image)
+			+ir
+			background-position: center center
+			width: 100%
+			min-width: image-width($image)
+		.logo-03 a
+			$image: "general/logos/3.png"
+			+image-block($image)
+			+ir
+			background-position: center center
+			width: 100%
+			min-width: image-width($image)
+
+	form
+		padding-top: 60px		
