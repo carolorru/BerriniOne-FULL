@@ -14,7 +14,7 @@ slide.transition = function(actual, next, direction, transitions, carousel) {
   $('[data-slide='+ actual +']').stop().animate({
     left: (slide.maxWidth * 0.5 * transitions)+'px',
     opacity: 0    
-  }, 1000, function(){
+  }, 4000, function(){
     carousel.find('>div').css({'z-index': '+=1'});
     $('[data-slide='+ actual +']').removeClass('active').addClass(direction).css({'left':'0', 'opacity':'1', 'z-index': '-='+slide.maxSlides+' '});
     $('[data-slide='+ next +']').removeClass(direction).addClass('active');

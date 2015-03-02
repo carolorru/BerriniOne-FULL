@@ -60,6 +60,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="javascript:;" attr-href="#project">O Projeto</a></li>
+            <li><a href="javascript:;" attr-href="#art">Arte</a></li>
             <li><a href="javascript:;" attr-href="#sustainability">Sustentabilidade</a></li>
             <li><a href="javascript:;" attr-href="#acessibility">Acessibilidade</a></li>
             <li><a href="javascript:;" attr-href="#technical-specification">Especificações Técnicas</a></li>
@@ -262,7 +263,7 @@
               </div>
               <div class="" data-gallery="inovacao">                            
                 <div class="container">
-                  <div class="txt col-md-7 col-md-offset-5">
+                  <div class="txt col-md-5">
                     <p>Reconhecimento facial e QR code de acesso: tecnologias únicas no país.</p>
                     <hr>
                     <p class="sub">
@@ -520,14 +521,29 @@
               <div class="panel-group" id="sustainability-accordion" role="tablist" aria-multiselectable="true">
                 
                 <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingZero">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#sustainability-accordion" href="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+                        Pontuação do Projeto
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseZero" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingZero">
+                    <div class="panel-body">
+                      <p>Para adquirir o certificado LEED, todos os empreendimentos imobiliários recebem pontuações de acordo com alguns critérios ambientais. O Berrini One conquistou a certificação e abaixo você pode conferir a pontuação alcançada em cada quesito.</p>
+                      <p><img src="data/grafico.jpg" width="100%"/></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#sustainability-accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <a data-toggle="collapse" data-parent="#sustainability-accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Terreno Sustentável
                       </a>
                     </h4>
                   </div>
-                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
                       <p>Estratégias adotadas pelo Berrini One</p>
                       <ul>
@@ -538,9 +554,14 @@
                         <li>Estacionamento projetado para atender, porém não exceder, as exigências mínimas da lei de zoneamento local, para desencorajar 
                         o uso de automóveis.</li>
                         <li>Restauração de áreas vegetadas livres e desenvolvimento de novas áreas verdes em ambientes abertos, promovendo a biodiversidade e estabelecendo conexão entre os ocupantes e o meio externo;</li>
-                        <li>100% das vagas localizadas no subsolo para reduzir efeitos de ilha de calor.</li>                      
+                        <li>100% das vagas localizadas no subsolo para reduzir efeitos de ilha de calor.</li>   
+                        <li>Mais de 5.000 m² de áreas destinadas a jardins, áreas permeáveis, paisagismo e cultura.</li> 
+                        <li>O empreendimento dispõe de 56 vagas para bicicletas e dois vestiários com chuveiros para os ciclistas.</li> 
+                        <li>Existem 48 vagas de estacionamento demarcadas preferencial para veículos de baixa emissão e baixo consumo (Veículos híbridos, elétricos, etc.)</li> 
+                        <li>884 vagas de automóveis, todas no subsolo não gerando ilhas de calor.</li> 
+                   
                       </ul>
-                      <p class="right">Para saber mais, baixe o PDF. <a href="#">SAIBA MAIS</a></p>
+                      <p class="right">Para saber mais, baixe o PDF. <a href="#">DOWNLOAD</a></p>
                     </div>
                   </div>
                 </div>
@@ -561,7 +582,16 @@
                         <li>Aproveitamento de águas pluviais e condensadas do sistema de ar condicionado para fins não potáveis, como abastecimento da irrigação e alimentação das bacias e mictórios, reduzindo a demanda de água potável no empreendimento;</li>
                         <li>Uso de espécies nativas e adaptadas que demandam menos água para irrigação;</li>
                         <li>Uso de sistema eficiente de irrigação automatizado, provido de controles que reduzem o desperdício de água.</li>
+                        <li>O projeto prevê a instalação de medidores de água para melhor controle e atuação no consumo de água;</li>
+                        <li>Equipamentos instalados: Sanitários providos de caixa acoplada com descarga Dual Flush;</li>
+                        <li>Torneiras com restritores de vazão e sensores de fechamento;</li>
+                        <li>Mictórios com válvula de fechamento automático;</li>
+                        <li>Captação de água pluvial e dos drenos do ar condicionado para reutilização na irrigação. Com essa medida, 100% da irrigação será feita com água não potável. A água captada alimentará também as bacias e mictórios do empreendimento.</li>
+                        <li>Sistema de irrigação eficiente com gotejadores, aspersores e sensores de chuva que permitem o acionamento do sistema somente quando realmente necessário;  </li>
+                        <li>Com todas as medidas implementadas, é estimada a redução em 48% na demanda de água para a operação do edifício, sendo que essa redução no consumo de água do empreendimento considera os metais eficientes e o uso da água não potável para os sistemas de descarga (bacias e mictórios). (Porcentagem calculada considerando o baseline estipulado pelo LEED).</li>
+
                       </ul>
+                      <p class="right">Para saber mais, baixe o PDF. <a href="#">DOWNLOAD</a></p>
                     </div>
                   </div>
                 </div>
@@ -578,15 +608,19 @@
                     <div class="panel-body">
                       <p>Estratégias adotadas pelo Berrini One</p>
                       <ul>
-                        <li>Implementação de um plano de controle de erosão e sedimentação para reduzir a poluição gerada nas atividades de construção;</li>
-                        <li>Localização do projeto escolhida estrategicamente, a fim de evitar o desenvolvimento inadequado e reduzir os impactos ambientais na construção de um edifício;</li>
-                        <li>Localização em terreno previamente desenvolvido com facilidade de acesso ao transporte público e outros serviços básicos, como restaurantes, mercado, escola e padaria, promovendo a interação com o comércio local;</li>
-                        <li>Estacionamento preferencial para veículos de baixa emissão e baixo consumo, bicicletários e vestiários com chuveiros também foram projetados perto da entrada do edifício com a finalidade de reduzir o impacto do uso de carros;</li>
-                        <li>Estacionamento projetado para atender, porém não exceder, as exigências mínimas da lei de zoneamento local, para desencorajar 
-                        o uso de automóveis.</li>
-                        <li>Restauração de áreas vegetadas livres e desenvolvimento de novas áreas verdes em ambientes abertos, promovendo a biodiversidade e estabelecendo conexão entre os ocupantes e o meio externo;</li>
-                        <li>100% das vagas localizadas no subsolo para reduzir efeitos de ilha de calor.</li>                      
+                        <li>Comissionamento dos sistemas prediais que demandam energia (ar condicionado, ventilação mecânica e sistemas elétricos e hidráulicos) supervisionado por um consultor qualificado de modo a garantir a eficiência destes sistemas;</li>
+                        <li>Simulação computacional para avaliar a eficiência energética do edifício de acordo com os parâmetros da ASHRAE 90.1-2007;</li>
+                        <li>O sistema de Ar Condicionado composto por um sistema VRV (Variable Refrigerant Volume) de alta eficiência com unidades multi-split, e variador de frequência no compressor elétrico das unidades condensadoras, modulando a refrigeração de acordo com a demanda de temperatura de cada zona climática, contribuindo com a eficiência energética do sistema;</li>
+                        <li>A iluminação interna e externa foi projetada com equipamentos de alta eficiência energética para reduzir o consumo de energia;</li>
+                        <li>Utilização de gases refrigerantes ecológicos, com baixo potencial de impacto na camada de ozônio e no aquecimento global R-410A;</li>
+                        <li>Uso de sistema avançado de automação (BMS) para controlar e monitorar todos os parâmetros operacionais dos sistemas de energia do edifício, com foco na integração de todos os sistemas. Eficiência energética do edifício com otimização operacional e qualidade ambiental do ambiente interno;</li>
+                        <li>Desenvolvimento de um plano de Medição & Verificação para avaliar a performance dos sistemas prediais;</li>
+                        <li>Previsão de medidores de energia por uso final, permitindo que o locatário crie e gerencie as estratégias de redução e consumo de energia na operação e manutenção de seu espaço;</li>
+                        <li>Desenvolvimento de um Plano de Medição & Verificação do Locatário;</li>
+                        <li>Contrato de dois anos com um fornecedor de energia limpa, estimulando o desenvolvimento e uso de energia renovável.</li>
+                     
                       </ul>
+                      <p class="right">Para saber mais, baixe o PDF. <a href="#">DOWNLOAD</a></p>
                     </div>
                   </div>
                 </div>
@@ -603,17 +637,13 @@
                     <div class="panel-body">
                       <p>Estratégias adotadas pelo Berrini One</p>
                       <ul>
-                        <li>Comissionamento dos sistemas prediais que demandam energia (ar condicionado, ventilação mecânica e sistemas elétricos e hidráulicos) supervisionado por um consultor qualificado de modo a garantir a eficiência destes sistemas;</li>
-                        <li>Simulação computacional para avaliar a eficiência energética do edifício de acordo com os parâmetros da ASHRAE 90.1-2007;</li>
-                        <li>O sistema de Ar Condicionado composto por um sistema VRV (Variable Refrigerant Volume) de alta eficiência com unidades multi-split, e variador de frequência no compressor elétrico das unidades condensadoras, modulando a refrigeração de acordo com a demanda de temperatura de cada zona climática, contribuindo com a eficiência energética do sistema;</li>
-                        <li>A iluminação interna e externa foi projetada com equipamentos de alta eficiência energética para reduzir o consumo de energia;</li>
-                        <li>Utilização de gases refrigerantes ecológicos, com baixo potencial de impacto na camada de ozônio e no aquecimento global R-410A;</li>
-                        <li>Uso de sistema avançado de automação (BMS) para controlar e monitorar todos os parâmetros operacionais dos sistemas de energia do edifício, com foco na integração de todos os sistemas. Eficiência energética do edifício com otimização operacional e qualidade ambiental do ambiente interno;</li>
-                        <li>Desenvolvimento de um plano de Medição & Verificação para avaliar a performance dos sistemas prediais;</li>                      
-                        <li>Previsão de medidores de energia por uso final, permitindo que o locatário crie e gerencie as estratégias de redução e consumo de energia na operação e manutenção de seu espaço;</li>                      
-                        <li>Desenvolvimento de um Plano de Medição & Verificação do Locatário;</li>                      
-                        <li>Contrato de dois anos com um fornecedor de energia limpa, estimulando o desenvolvimento e uso de energia renovável.</li>                
+                        <li>Área de fácil acesso, localizada no 2º Subsolo, destinada a coleta e armazenamento de resíduos recicláveis (papel, papelão, vidro, plástico e metal);</li>
+                        <li>Depósito temporário em todos os pavimentos tipo, em área de fácil acesso, destinado a coleta e armazenamento provisório de resíduos;</li>
+                        <li>Desvio de grandes quantidades de resíduos gerados durante a construção de aterros de São Paulo, para reuso na própria obra ou para reciclagem;</li>
+                        <li>Uso de materiais sustentáveis, como regionais e com conteúdo reciclado, para minimizar os impactos causados pelo seu transporte e sua extração.</li>
+              
                       </ul>
+                      <p class="right">Para saber mais, baixe o PDF. <a href="#">DOWNLOAD</a></p>
                     </div>
                   </div>
                 </div>
@@ -637,9 +667,47 @@
                         <li>Todos os materiais de Piso instalados no BERRINI ONE estão de acordo com os seguintes programas de rotulagem: Carpet and Rug Institute Label Plus Program, Floor Score Program, e South Coast Air Quality Management District (SCAQMD) rule 1113;</li>
                         <li>As fachadas foram projetadas para valorizar as áreas envidraçadas e, consequentemente, preservar vista para o ambiente externo. Foi projetado um layout que leva em consideração estas estratégias.</li>                      
                       </ul>
+                      <p class="right">Para saber mais, baixe o PDF. <a href="#">DOWNLOAD</a></p>
                     </div>
-                  </div>
+                  </div>                  
                 </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#sustainability-accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Adote você também medidas sustentáveis 
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                    <div class="panel-body">
+                      <ul>
+                        <li>Você também pode adotar métodos sustentáveis no ambiente onde vive:</li>
+                        <li>Recicle: você sabia que mais da metade do lixo da sua casa pode ser reciclado? Basta separar os materiais recicláveis do lixo orgânico e do que não pode ser reciclado e descartá-lo em centros de coleta seletiva;</li>
+                        <li>Faça compostagem: o ato de transformar resíduos orgânicos em adubo é benéfico para o meio ambiente. Conheça as composteiras domésticas da Morada da Floresta: <a href="http://www.moradadafloresta.org.br/produtos-principal/composteiras-domesticas" target="_blank">saiba mais</a></li>
+                        <li>Precisa mesmo do ar-condicionado? Na maioria das vezes, uma janela aberta resolve o incômodo do calor. Quando for usar o ar-condicionado, aumente em 2 graus. Com essa atitude, você evita que 900 kg de dióxido de carbono por ano subam para a atmosfera. Uma boa alternativa é usar um bom ventilador, que consome menos energia;</li>
+                        <li>Utilize lâmpadas fluorescentes: elas são mais econômicas e gastam até 65% menos energia, além de durarem até 10 vezes mais do que as lâmpadas comuns, reduzindo, assim, a geração de resíduos;</li>
+                        <li>Prefira eletrodomésticos ecoeficientes: compre apenas eletrodomésticos que tenham avaliação “A” no selo Procel. Eles ajudam a diminuir sua conta de luz e permitem o uso mais eficiente de energia elétrica. Veja no site a lista completa dos eletrodomésticos que tem o selo Procel: <a href="http://www.procelinfo.com.br/main.asp?View={B70B5A3C-19EF-499D-B7BC-D6FF3BABE5FA}" target="_blank">saiba mais</a></li>
+                        <li>Feche a tampa da panela: com isso há uma maior concentração de calor e economia de gás de cozinha;</li>
+                        <li>Feche bem a porta da geladeira: caso ela fique aberta, há um maior consumo de energia para manter a temperatura. Pense no que quer pegar antes de abri-la. Evite manter a temperatura interna do refrigerador inferior a 5 graus. Isso aumenta o consumo energético em cerca de 7%;</li>
+                        <li>Trabalhe em casa: se a sua atividade profissional permite, trabalhe remotamente alguns dias por semana. Ao trabalhar de casa, você gasta menos combustível e diminui o estresse do deslocamento;</li>
+                        <li>Desligue o monitor: quando sair da sala de trabalho, desligue o monitor do computador. As proteções de tela também gastam energia que pode ser economizada apenas ao apertar um botão;</li>
+                        <li>Reduza as impressões: pense antes de imprimir, com isso há economia de tinta e de papel. A fabricação de mais papel faz com que sejam derrubadas mais árvores, aumentando o aquecimento global e diminuindo a qualidade do ar e da água. Caso seja necessário imprimir, opte sempre pelo papel com selo FSC, imprima só o necessário no modo econômico e utilize os dois lados da folha;</li>
+                        <li>Utilize transporte coletivo: caso você não possa fazer home office, tente trocar o transporte individual por coletivo ou bicicleta. Outra opção é dividir o percurso com colegas de trabalho;</li>
+                        <li>Vá de escada: crie o saudável hábito de substituir o elevador pelas escadas. Além de economizar energia, você fará um bem enorme para a sua saúde;</li>
+                        <li>Racionalize o uso de pilhas: procure usar pilhar recarregáveis. Quando acabar sua validade, deposite-as em caixas coletoras específicas. As pilhas contaminam a água e o solo, com mercúrio e cádmio, e a atmosfera com vapores tóxicos;</li>
+                        <li>Faça revisão regularmente em seu carro: dessa forma você economiza combustível e despeja menos CO2 na atmosfera;</li>
+                        <li>Fique atento à conta de luz: perceba quantos aparelhos eletrônicos ficam no modo de espera (stand-by) constantemente. Crie o hábito de tirar televisão, DVDs, sons e outros aparelhos da tomada e calcule a economia na conta;</li>
+                        <li>Seja um agente voluntário do “apagão”: saia por aí apagando todas as luzes seja em casa, no trabalho, em banheiros públicos, restaurantes ou onde encontrar uma lâmpada acessa desnecessariamente. A conta nem sempre é você quem paga, mas o prejuízo ambiental reflete em todo o planeta;</li>
+                        <li>Evite os descartáveis: prefira os alimentos fora das bandejas de isopor, o copo de vidro, as sacolas e guardanapos de pano, enfim, todo produto que se use, lave e use novamente. Assim, você economiza os recursos da natureza e diminui a quantidade de lixo, um dos grandes problemas do nosso tempo;</li>
+                        <li>Leia os rótulos dos produtos: evite os que possam conter transgênicos. Na dúvida, não compre;</li>
+                        <li>Reflita, inspire outros, plante: se cada brasileiro plantar uma árvore, serão 190 milhões de árvores a mais por ano no país. Se o mundo todo plantar, serão 6,5 bilhões. Uma árvore em crescimento absorve mais dióxido de carbono da atmosfera do que emite, reduzindo os gases responsáveis pelo aquecimento global.</li>
+                      </ul>
+                    </div>
+                  </div>                  
+                </div>
+
               </div>
 
             </div>
@@ -736,16 +804,44 @@
 
         <div class="container-fluid visible-xs">
           
-          <img src="data/arte/01.jpg" width="100%">
+          <img src="data/plantas/1.jpg" width="100%">
           <div class="container">
             <div class="txt">
               <p>
-                André Crespo
-              </p>
-              <p class="sub">
-                <span>O artista brasileiro utiliza uma técnica de pintura chamada “efeito sombra”, que inverte as formas convencionais de pintura. </span><br><br>
-                <span>O subsolo do local conta com uma pintura do artista, feita especialmente para este projeto.</span>
-              </p>
+                Zona 1
+              </p>              
+            </div>
+          </div>
+          <img src="data/plantas/2.jpg" width="100%">
+          <div class="container">
+            <div class="txt">
+              <p>
+                Zona 2
+              </p>              
+            </div>
+          </div>
+          <img src="data/plantas/3.jpg" width="100%">
+          <div class="container">
+            <div class="txt">
+              <p>
+                Zona 3
+              </p>              
+            </div>
+          </div>
+          <img src="data/plantas/4.jpg" width="100%">
+          <div class="container">
+            <div class="txt">
+              <p>
+                Zona 3
+              </p>              
+            </div>
+          </div>
+          <img src="data/plantas/5.jpg" width="100%">
+          <div class="container">
+            <div class="txt">
+              <p>
+                Zona 3
+              </p>              
             </div>
           </div>
 
@@ -754,17 +850,27 @@
         <div id="slide-02" class="carousel slide container-fluid hidden-xs" data-ride="carousel">  
           <div class="carousel-inner" role="listbox">
             <div class="item active">            
-              <img src="data/arte/01.jpg" align="right">
+              <img src="data/plantas/1.jpg" width="100%">
               <div class="carousel-caption">
                 <div class="container">
-                  <div class="txt col-md-7">
+                  <div class="txt col-md-2">
                     <p>
-                      Arnaldo Diederichsen
-                    </p>
-                    <p class="sub">
-                      <span>O trabalho do artista tira partido das manifestações naturais em madeiras nobres.</span><br><br>
-                      <span>No térreo do Berrini One é possível apreciar uma bela escultura feita exclusivamente para o empreendimento.</span>
-                    </p>
+                      Zona 1
+                    </p>                    
+                  </div>
+                </div>
+              </div>
+              
+              <div class="clear"></div>
+            </div>
+            <div class="item">            
+              <img src="data/plantas/2.jpg" width="100%">
+              <div class="carousel-caption">
+                <div class="container">
+                  <div class="txt col-md-2">
+                    <p>
+                      Zona 2
+                    </p>                    
                   </div>
                 </div>
               </div>
@@ -773,17 +879,13 @@
             </div>
 
             <div class="item">            
-              <img src="data/arte/02.jpg" align="right">
+              <img src="data/plantas/3.jpg" width="100%">
               <div class="carousel-caption">
                 <div class="container">
-                  <div class="txt col-md-7">
+                  <div class="txt col-md-2">
                     <p>
-                      Arnaldo Diederichsen
-                    </p>
-                    <p class="sub">
-                      <span>O trabalho do artista tira partido das manifestações naturais em madeiras nobres.</span><br><br>
-                      <span>No térreo do Berrini One é possível apreciar uma bela escultura feita exclusivamente para o empreendimento.</span>
-                    </p>
+                      Zona 3
+                    </p>                    
                   </div>
                 </div>
               </div>
@@ -792,16 +894,28 @@
             </div>
 
             <div class="item">            
-              <img src="data/arte/03.jpg" >
+              <img src="data/plantas/4.jpg" width="100%">
               <div class="carousel-caption">
                 <div class="container">
-                  <div class="txt col-md-10">
+                  <div class="txt col-md-2">
                     <p>
-                      “Eu quero que as pessoas percebam que cor não é uma certeza, mas uma circunstância… A cor está constantemente trocando de circunstância.”
-                    </p>
-                    <p class="sub">
-                      <span>Carlos Cruz-Diez</span>
-                    </p>
+                      Zona 3
+                    </p>                    
+                  </div>
+                </div>
+              </div>
+              
+              <div class="clear"></div>
+            </div>
+
+            <div class="item">            
+              <img src="data/plantas/5.jpg" width="100%">
+              <div class="carousel-caption">
+                <div class="container">
+                  <div class="txt col-md-2">
+                    <p>
+                      Zona 3
+                    </p>                    
                   </div>
                 </div>
               </div>
@@ -834,16 +948,17 @@
                   </div>
                   <div id="collapse-01" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-01">
                     <div class="panel-body">
-                      <p>Conjuntos: 1 ou 2 por andar. Previsão para execução de escadas interpavimento.</p>
-                      <p>Sanitários: Na Zona Baixa: 2 masculinos, 2 femininos, 1 para portadores de necessidades especiais.  Zona Média: 1 masculino, 1 feminino, 1 para portadores de necessidades especiais. Zona Alta: 1 masculino, 1 feminino, 1 para portadores de necessidades especiais. Previsão de 2 prumadas para sanitários privativos.</p>
-                      <p>Altura de Laje a Laje: 3,93m em todos os pavimentos de escritórios.</p>
-                      <p>Pé-direito útil: 2,80m em todos os pavimentos de escritórios.</p>
-                      <p>Carga de piso: 300 kg/m² de carga útil acidental e 50 kg/m² de carga útil permanente.</p>
-                      <p>Piso elevado: previsão para piso elevado com altura de 15 cm.</p>
-                      <p>Iluminação: previsão de luminárias de alta performance com aletas antiofuscantes e lâmpadas fluorescentes </p>
-                      <p>Depósito: Infraestrutura para espaço de depósito de material de limpeza com tanque.</p>
-                      <p>Vidros: Vidros laminados, de alta performance e com baixa transmissão de calor.</p>
-                      
+                      <ul>
+                        <li>Conjuntos: 1 ou 2 por andar. Previsão para execução de escadas interpavimento.</li>
+                        <li>Sanitários: Na Zona Baixa: 2 masculinos, 2 femininos, 1 para portadores de necessidades especiais.  Zona Média: 1 masculino, 1 feminino, 1 para portadores de necessidades especiais. Zona Alta: 1 masculino, 1 feminino, 1 para portadores de necessidades especiais. Previsão de 2 prumadas para sanitários privativos.</li>
+                        <li>Altura de Laje a Laje: 3,93m em todos os pavimentos de escritórios.</li>
+                        <li>Pé-direito útil: 2,80m em todos os pavimentos de escritórios.</li>
+                        <li>Carga de piso: 300 kg/m² de carga útil acidental e 50 kg/m² de carga útil permanente.</li>
+                        <li>Piso elevado: previsão para piso elevado com altura de 15 cm.</li>
+                        <li>Iluminação: previsão de luminárias de alta performance com aletas antiofuscantes e lâmpadas fluorescentes </li>
+                        <li>Depósito: Infraestrutura para espaço de depósito de material de limpeza com tanque.</li>
+                        <li>Vidros: Vidros laminados, de alta performance e com baixa transmissão de calor.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -858,7 +973,9 @@
                   </div>
                   <div id="collapse-02" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-02">
                     <div class="panel-body">
-                      <p>Terraço técnico para receber as unidades condensadoras de ar do tipo VRF, que alimentam todas evaporadoras do conjunto via tubulação de gás refrigerante. </p>
+                      <ul>
+                        <li>Terraço técnico para receber as unidades condensadoras de ar do tipo VRF, que alimentam todas evaporadoras do conjunto via tubulação de gás refrigerante. </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -873,11 +990,13 @@
                   </div>
                   <div id="collapse-03" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-03">
                     <div class="panel-body">
-                      <p>Capacidade: Potência instalada de 6.000 kVA. Entrada em média tensão em 34,5 kV, em tripla alimentação da rede da concessionária, que alimenta quatro subestações transformadoras. O transporte da energia das subestações até os conjuntos é feito através de barramentos blindados (bus-ways).</p>
-                      <p>Carga de iluminação: 12,5 W/m²</p>
-                      <p>Carga de piso: 30 W/m²</p>
-                      <p>Transformadores de pavimento: sala elétrica privativa para receber transformadores 380/220 para 220/127 V em cada conjunto.</p>
-                      <p>Geradores de energia: Geração de energia própria para substituição da energia da rede pública nos horários de pico (peak shaving) através de 1 gerador a diesel de 1.000 kVA e 1 gerador a gás natural de 1.625 kVA. O sistema garante o funcionamento do edifício na falta de energia da concessionária.</p>
+                      <ul>
+                        <li>Capacidade: Potência instalada de 6.000 kVA. Entrada em média tensão em 34,5 kV, em tripla alimentação da rede da concessionária, que alimenta quatro subestações transformadoras. O transporte da energia das subestações até os conjuntos é feito através de barramentos blindados (bus-ways).</li>
+                        <li>Carga de iluminação: 12,5 W/m²</li>
+                        <li>Carga de piso: 30 W/m²</li>
+                        <li>Transformadores de pavimento: sala elétrica privativa para receber transformadores 380/220 para 220/127 V em cada conjunto.</li>
+                        <li>Geradores de energia: Geração de energia própria para substituição da energia da rede pública nos horários de pico (peak shaving) através de 1 gerador a diesel de 1.000 kVA e 1 gerador a gás natural de 1.625 kVA. O sistema garante o funcionamento do edifício na falta de energia da concessionária.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -892,10 +1011,12 @@
                   </div>
                   <div id="collapse-04" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-04">
                     <div class="panel-body">
-                      <p>Para Escritórios: 13 elevadores de alta velocidade que chegam a até 5m/s com capacidade para até 26 pessoas. Os elevadores são gerenciados por sistema inteligente com pré-chamada. </p>
-                      <p>3 elevadores que atendem do 4º susbsolo ao térreo.</p>
-                      <p>Para Serviço/Bombeiros: 2 elevadores, com capacidade de 1.725 kg e 1.800 kg e velocidade de até 2,5m/s, servindo todos os pavimentos entre o 4º subsolo e a cobertura. O elevador de bombeiros é enclausurado em câmara à prova de fogo.</p>
-                      <p>Para Docas: 2 elevadores que atendem as docas para acesso ao subsolo, com capacidade de até 1.500 kg e velocidade de até 1,0m/s que atende do 2º subsolo ao térreo e do mezanino ao 2º subsolo.</p>
+                      <ul>
+                        <li>Para Escritórios: 13 elevadores de alta velocidade que chegam a até 5m/s com capacidade para até 26 pessoas. Os elevadores são gerenciados por sistema inteligente com pré-chamada. </li>
+                        <li>3 elevadores que atendem do 4º susbsolo ao térreo.</li>
+                        <li>Para Serviço/Bombeiros: 2 elevadores, com capacidade de 1.725 kg e 1.800 kg e velocidade de até 2,5m/s, servindo todos os pavimentos entre o 4º subsolo e a cobertura. O elevador de bombeiros é enclausurado em câmara à prova de fogo.</li>
+                        <li>Para Docas: 2 elevadores que atendem as docas para acesso ao subsolo, com capacidade de até 1.500 kg e velocidade de até 1,0m/s que atende do 2º subsolo ao térreo e do mezanino ao 2º subsolo.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -910,11 +1031,13 @@
                   </div>
                   <div id="collapse-05" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-05">
                     <div class="panel-body">
-                      <p>Vagas: capacidade de 1089 vagas</p>
-                      <p>ELEVADORES DE GARAGEM</p>
-                      <p>3 elevadores de passageiros, capacidade para 13 pessoas e velocidade de 1,5m/s, que atendem todos os pavimentos de garagem e térreo.</p>
-                      <p>ESCADAS ROLANTES</p>
-                      <p>2 escadas rolantes que atendem o primeiro subsolo e térreo.</p>
+                      <ul>
+                        <li>Vagas: capacidade de 1089 vagas</li>
+                        <li>ELEVADORES DE GARAGEM</li>
+                        <li>3 elevadores de passageiros, capacidade para 13 pessoas e velocidade de 1,5m/s, que atendem todos os pavimentos de garagem e térreo.</li>
+                        <li>ESCADAS ROLANTES</li>
+                        <li>2 escadas rolantes que atendem o primeiro subsolo e térreo.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -929,7 +1052,9 @@
                   </div>
                   <div id="collapse-06" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-06">
                     <div class="panel-body">
-                      <p>Circuito interno de TV e vídeo (CFTV) nos acessos e saídas do edifício. Acesso controlado por sistema de última geração de reconhecimento facial para usuários e QR code para visitantes. </p>
+                      <ul>
+                        <li>Circuito interno de TV e vídeo (CFTV) nos acessos e saídas do edifício. Acesso controlado por sistema de última geração de reconhecimento facial para usuários e QR code para visitantes. </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -943,13 +1068,15 @@
                   </div>
                   <div id="collapse-07" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-07">
                     <div class="panel-body">
-                      <p>Sistema central de alarme de incêndio microprocessado com detectores de fumaça óticos e dispositivos endereçáveis.</p>
-                      <p>Sprinklers em todo o edifício.</p>
-                      <p>5 escadas de emergência pressurizadas</p>
-                      <p>Hidrantes e extintores em todo o edifício.</p>
-                      <p>Brigada de incêndio.</p>
-                      <p>Porta com abertura automática nos andares para sistema de emergência.</p>
-                      <p>Sistema de extração de fumaça e insuflamento de ar limpo em cada pavimento.</p>
+                      <ul>
+                        <li>Sistema central de alarme de incêndio microprocessado com detectores de fumaça óticos e dispositivos endereçáveis.</li>
+                        <li>Sprinklers em todo o edifício.</li>
+                        <li>5 escadas de emergência pressurizadas</li>
+                        <li>Hidrantes e extintores em todo o edifício.</li>
+                        <li>Brigada de incêndio.</li>
+                        <li>Porta com abertura automática nos andares para sistema de emergência.</li>
+                        <li>Sistema de extração de fumaça e insuflamento de ar limpo em cada pavimento.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -963,10 +1090,12 @@
                   </div>
                   <div id="collapse-08" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-08">
                     <div class="panel-body">
-                      <p>Infraestrutura para serviços de telefonia através de central única digital (PABX) com ramais dedicados (DDR) gerenciada por provedor de telemática.</p>
-                      <p>Infraestrutura para condutores de fibra ótica para transmissão de dados, voz e imagem em alta velocidade.</p>
-                      <p>Infraestrutura para acesso a diversas operadoras de sistemas de telecomunicação.</p>
-                      <p>Cabeamento estruturado para comunicação via VoIP e vídeo entre os conjuntos e totens de autoatendimento.</p>
+                      <ul>
+                        <li>Infraestrutura para serviços de telefonia através de central única digital (PABX) com ramais dedicados (DDR) gerenciada por provedor de telemática.</li>
+                        <li>Infraestrutura para condutores de fibra ótica para transmissão de dados, voz e imagem em alta velocidade.</li>
+                        <li>Infraestrutura para acesso a diversas operadoras de sistemas de telecomunicação.</li>
+                        <li>Cabeamento estruturado para comunicação via VoIP e vídeo entre os conjuntos e totens de autoatendimento.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -980,8 +1109,10 @@
                   </div>
                   <div id="collapse-09" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-09">
                     <div class="panel-body">
-                      <p>Supervisão e comando dos principais equipamentos elétricos, mecânicos e de ar condicionado.</p>
-                      <p>Interface serial com sistemas de segurança patrimonial e contra incêndio.</p>
+                      <ul>
+                        <li>Supervisão e comando dos principais equipamentos elétricos, mecânicos e de ar condicionado.</li>
+                        <li>Interface serial com sistemas de segurança patrimonial e contra incêndio.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>

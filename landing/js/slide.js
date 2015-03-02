@@ -12,7 +12,7 @@ slide.transition = function(actual, next, direction, transitions) {
     opacity: 0    
   }, 1000, function(){
     $('.slides>div').css({'z-index': '+=1'});
-    $('[data-slide='+ actual +']').removeClass('active').addClass(direction).css({'left':'0', 'opacity':'1', 'z-index': '-=3'});
+    $('[data-slide='+ actual +']').removeClass('active').addClass(direction).css({'left':'0', 'opacity':'1', 'z-index': '-=4'});
     $('[data-slide='+ next +']').removeClass(direction).addClass('active');
   });
     
